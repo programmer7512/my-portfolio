@@ -19,13 +19,8 @@ img {
   align-items: right;
   clear: both;
 }
-.sidebar {
+/* .sidebar { */
   width: 40%;
   float: left;
   background-color: #66FF99;
-}
-.contact{
-  width: 20%
-  float:right;
-  clear: both;
 }
