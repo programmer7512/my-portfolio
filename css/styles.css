@@ -7,20 +7,29 @@ h2
 }
 body
 {
-  background-color: #66FF99;
+  background-color: #3A862B ;
 }
 img {
   border-radius: 50%;
   background-color: black;
 }
 .projects{
-  background-color: #ffffff;
+  border-radius: 10px;
+  background-color: #A8C583;
   float:left;
   align-items: right;
   clear: both;
 }
-/* .sidebar { */ */
+.sidebar {
+  border-radius: 10px;
   width: 40%;
   float: left;
-  background-color: #66FF99;
+  background-color: #A8C583;
+
+
+}
+.contact{
+  border-radius: 10px;
+  clear: both;
+  background-color: 
 }
