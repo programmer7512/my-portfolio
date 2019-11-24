@@ -24,8 +24,8 @@ img {
   float: left;
   background-color: #66FF99;
 }
-/* .sidebar {
-  width: 60%;
-  float: right;
-  background-color: #2d7788;
-} */
+.contact{
+  width: 20%
+  float:right;
+  clear: both;
+}
