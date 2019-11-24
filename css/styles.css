@@ -14,12 +14,12 @@ img {
   background-color: black;
 }
 .projects{
-  background-color: lightblue;
+  background-color: #ffffff;
   float:left;
   align-items: right;
   clear: both;
 }
-/* .sidebar { */
+/* .sidebar { */ */
   width: 40%;
   float: left;
   background-color: #66FF99;
