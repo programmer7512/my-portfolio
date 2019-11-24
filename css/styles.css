@@ -1,7 +1,9 @@
 h2
 {
   text-align: center;
-  color: blue;
+  font-size: 18px;
+  color: black;
+  font-style: italic;
 }
 body
 {
@@ -11,8 +13,19 @@ img {
   border-radius: 50%;
   background-color: black;
 }
+.projects{
+  background-color: lightblue;
+  float:left;
+  align-items: right;
+  clear: both;
+}
 .sidebar {
   width: 40%;
   float: left;
-  /* background-color: #2d7788; */
+  background-color: #66FF99;
 }
+/* .sidebar {
+  width: 60%;
+  float: right;
+  background-color: #2d7788;
+} */
