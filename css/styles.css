@@ -11,3 +11,8 @@ img {
   border-radius: 50%;
   background-color: black;
 }
+.sidebar {
+  width: 40%;
+  float: left;
+  /* background-color: #2d7788; */
+}
