@@ -1,85 +1,143 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>my-portfolio</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <style>
-      table,th,td{
-        border:1px solid black;
-      }
-    </style>
-  </head>
-  <body>
-    <img src="images/man.jpg" alt="MY LOGO">
-    <p><strong> ODUOR JOSEPH</p>
-    <h2>Written with a little guidance from my Technical Mentors</h2>
 
-      <h3><u>ABOUT ME:</u></h3>
-      <p>I am a full stack developer born and currently living in Nairobi,KENYA.
-        I love solving technical problem using computers,this accidentaly lead me to trying to find new ways to easily solve them;I thought of creating programs that would make the process easier and here I am learning coding.
-        <p>Back in highschool I developed urge to find more and understand how the internet works this has been my driving force as I look forward becoming a <span style="color:blue;font-weight:bold">software developer.</span></p><br>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>My Portfolio</title>
 
-      <p><strong>My hobbies are:</strong></p>
-         <ol>
-           <li>Reverse engineering</li>
-           <li>Embedded electronics</li>
-           <li>Creating and self-hosting varying services</li>
-           <li>Playing video games.</li>
-         </ol>
-       </p>
-     </div>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Graduate&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <img src="images/man.jpg" alt="Blackstar">
+    <div class="title">
+      <h1 class="name">ODUOR JOSEPH</h1>
+      <h2 class="subtitle">written with a little guidance from my technical mentors</h2>
     </div>
-    <div class="sidebar">
-   <p><u>EDUCATION:</u></P>
-       <ul type="square">
-         <li>Full stack web development:<br>
-         MORINGA SCHOOL (2019-2020)</li>
-         <li>Bsc Informatics:<br>
-         MOI UNIVERSITY(2012-2016)</li>
-         <li>Msc in Computer Science:<br>
-         MOI UNIVERSITY(2017-2018)</li><br><br>
-       </ul>
-   </div>
-   <div class="contact">
-       <p><u>TECHNICAL BACKGROUND:</u></p>
-         <ul>
-           <li>Programming languages:Python,Javascript and PHP</li>
-           <li>Operating systems: Linux - Ubuntu, CentOS, Kali</li>
-           <li>Webservers - Apache, Nginx</li>
-           <li>Automation - Ansible</li>
-           <li>Monitoring - Elastic Stack, Grafana, Smokeping</li>
-           <li>Other - Nextcloud, Radicale, FreeRADIUS, InfluxDB, MariaDB/MySQL, Redmine</li
+  </header>
+
+  <main>
+    <section class="about">
+      <h3>ABOUT ME</h3>
+      <p>
+        I am a full stack developer born and currently living in Nairobi, Kenya.
+        I love solving problems,this accidentaly lead me to my passion. Back in highschool, I developed urge to find
+        more and understand how the internet works this has been my driving force as I look forward becoming a
+        <strong style="color: #55F83B;">software developer</strong>. <br />
+        My hobbies are: <br />
+        <ul class="plus-list">
+          <li>Reverse Engineering</li>
+          <li>Embedded Electronics</li>
+          <li>Creating &amp; Self-hosting Varying Services</li>
+          <li>Playing Video Games.</li>
         </ul>
-    </div
-    <div>
-      <h3>WORK EXPERIENCE:</h3>
-      <table>
-        <tr>
-          <th>YEAR:</th>
-          <th>COMPANY:</th>
-          <th>POSITION</th>
-        </tr>
-        <tr>
-          <td>2019-PRESENT</td>
-          <td>WESTERN AMBIENCE</td>
-          <td>NETWORK ADMINISTRATOR</td>
-        </tr>
-        <tr>
-          <td>2012 - 2016</td>
-          <td>AKULWA FARMS</td>
-          <td>FIELD ASSISTANT</td>
-        </tr>
-      </div>
-      </table><br><br>
-    <div class="projects" >
-      <p><u>PROJECTS:</u></p>
-      <p><strong>Below are some of the projects I have worked on and publishedin my github account/pages:</strong></p>
-      <ul>
-        <li>Click to view:<a href="https://programmer7512.github.io/my-favourite-pet/">Webpage for my pet</a></li>
-        <li>Click to view:<a href="https://programmer7512.github.io/cookies_recipe/">Cookie recipe</a></li>
-        <li>Click to view:<a href="https://programmer7512.github.io/KAWASAKI/">My favourite things</a></li>
+      </p>
+    </section>
+
+    <section class="education">
+      <h3>EDUCATION</h3>
+      <ul class="plus-list">
+        <li>Full-stack Web Development, Moringa School, 2019 - 2020</li>
+        <li>BSc in Informatics, Moi University, 2012 - 2016</li>
+        <li>MSc in Computer Science, Moi University, 2017 - 2018</li>
       </ul>
-    </div>
- </body>
+    </section>
+
+    <section class="work-xp">
+      <h3>WORK EXPERIENCE</h3>
+      <ul class="plus-list">
+        <li>Network Administrator, Western Ambience, 2019 - Present</li>
+        <li>Field Assistant, Akulwa Farms, 2012 - 2016</li>
+      </ul>
+    </section>
+
+    <aside class="tech-bground">
+      <h3>TECHNICAL BACKGROUND</h3>
+      <div class="card">
+        <div class="card-header">Programming Languages</div>
+        <div class="card-content">
+          Python, JavaScript, PHP
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">Operating Systems</div>
+        <div class="card-content">
+          Ubuntu, CentOS, Kali
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">Web Servers</div>
+        <div class="card-content">
+          Apache, Nginx
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">Automation</div>
+        <div class="card-content">
+          Ansible
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">Monitoring</div>
+        <div class="card-content">
+          Elastic Stack, Grafana, Smokeping
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">Other</div>
+        <div class="card-content">
+          Nextcloud, Radicale, FreeRADIUS, InfluxDB, MariaDB/MySQL, Redmine
+        </div>
+      </div>
+    </aside>
+
+    <section class="projects">
+      <h3>PROJECTS</h3>
+      <p style="color: rgb(23, 71, 14);">
+        Below are some of the projects I've worked on and published to my Github pages
+      </p>
+      <ul class="projects-list">
+        <li>
+          <a class="link" href="https://programmer7512.github.io/my-favourite-pet">
+            My Pet
+          </a>
+        </li>
+        <li>
+          <a class="link" href="https://programmer7512.github.io/cookies-recipe">
+            Cookie Recipe
+          </a>
+        </li>
+        <li>
+          <a class="link" href="https://programmer7512.github.io/KAWASAKI">
+            My Favourite Things
+          </a>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <ul class="contact-list">
+      <li>
+        Number
+      </li>
+      <li>
+        <a href="mailto:">Email</a>
+      </li>
+      <li>
+        <a href="https://">Telegram</a>
+      </li>
+      <li>
+        <a href="https://github.com">Github</a>
+      </li>
+    </ul>
+    <h1 class="name">ODUOR JOSEPH</h1>
+  </footer>
+</body>
+
 </html>
